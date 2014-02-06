@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ubs</artifactId>
+        <groupId>com.preperation</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>gigspaces</artifactId>
+
+    <repositories>
+        <repository>
+            <id>org.openspaces</id>
+            <url>http://maven-repository.openspaces.org</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <artifactId>gs-runtime</artifactId>
+            <groupId>com.gigaspaces</groupId>
+            <version>9.7.0-10496-RELEASE</version>
+        </dependency>
+        <dependency>
+            <artifactId>gs-openspaces</artifactId>
+            <groupId>com.gigaspaces</groupId>
+            <version>9.7.0-10496-RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

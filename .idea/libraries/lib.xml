@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://C:/tools/gigaspaces-xap-caching-9.7.0-ga/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://C:/tools/gigaspaces-xap-caching-9.7.0-ga/lib" recursive="false" />
+  </library>
+</component>
